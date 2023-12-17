@@ -1,0 +1,36 @@
+
+   28  git clone https://github.com/Vijaybabu123456/Devops-notes.git
+   
+   35  cp unix_commands gitrepos/Devops-notes/
+   36  cd gitrepos/Devops-notes/
+   38  git status
+   39  git add unix_commands 
+   40  git status
+   41  git commit -m "initial commit"
+   43  git push
+   44  git config --global user.email "vk433960@gmail.com"
+   45  git config --global user.name Vijaybabu123456
+   46  git push
+   47  ssh-keygen
+   49  cat /c/Users/cheta/.ssh/id_ed25519.pub
+   50  git push
+
+   54  git remote set-url  origin git@github.com:Vijaybabu123456/Devops-notes.git
+   55  git remote -v
+   56  git push
+   57  git status
+   58  git add unix_commands 
+   59  git commit -m "initial commit"
+   60  git push
+   61  git status
+   62  cp ../../unix_commands ./
+   63  git status
+   64  git diff
+   65  git add unix_commands 
+   66  git commit -m "added chmod history and date commands"
+   67  git push
+   68  git log
+   69  git checkout d2f1166
+   70  git checkout af2841e
+   71  history
+   72  history > git-commands
