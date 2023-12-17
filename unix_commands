@@ -10,11 +10,7 @@ mv is to rename the file
 diff is to list the difference
 grep is used to search text in files
 mkdir is to create the directories
-d rwx r-x r-x
-d rwx r-x r-x 1 cheta 197609   0 Dec 17 09:08 gitrepos/ 755
-d rwx r-x r-x 1 cheta 197609   0 Dec 15 10:36 resume/ 755
-- rw- r-- r-- 1 cheta 197609 337 Dec 17 09:06 unix_commands 664
-r - read - 4 
-w - write - 2
-x - execute - 1
-7
+chmod is to set file permissions
+history to check the command history
+date is to display current date and time
+
