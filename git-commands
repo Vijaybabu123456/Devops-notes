@@ -32,5 +32,7 @@
    68  git log
    69  git checkout d2f1166
    70  git checkout af2841e
-   71  history
    72  history > git-commands
+73 git branch test
+74 git checkout test
+75 git checkout -b test
