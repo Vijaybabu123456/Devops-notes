@@ -36,3 +36,6 @@
 73 git branch test
 74 git checkout test
 75 git checkout -b test
+
+76 git pull --ff-only
+77 git rebase
