@@ -89,3 +89,5 @@
    89  ls
    90  history 
    91  history >command-history
+   92  added command history
+   
