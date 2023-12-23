@@ -36,11 +36,3 @@
 75 git checkout -b test
 76 git pull --ff-only
 77 git rebase
-78 added test file for practice
-
---------------------------------
-Modify files
-git add file1 file2 file3
-git commit -m "message"
-git push 
-git pull is = to git fetch + git merge
