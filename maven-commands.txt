@@ -1,3 +1,17 @@
+Maven lifecycles 
+    - default
+    - clean
+    - site
+
+Default life cycle
+  - validate
+  - compile
+  - test
+  - package
+  - verify
+  - install
+  - deploy
+  
 mvn compile : converts human readle codes machine readable codes
 mvn package : packages all source code files in to one single deployable file (artifact) 
 mvn install : Copies the artifact to $HOME/.m2/target (local maven repo)
