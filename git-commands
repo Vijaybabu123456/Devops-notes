@@ -36,3 +36,4 @@
 75 git checkout -b test
 76 git pull --ff-only
 77 git rebase
+78 git checkout -b name
