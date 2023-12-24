@@ -91,7 +91,3 @@
    91  history >command-history
    92  added command history
    93  echo "this is a test file" >testfile
-   94  Git revert 
-   95 Git reset, 
-   96 Git restore
-   97 Git rebase
