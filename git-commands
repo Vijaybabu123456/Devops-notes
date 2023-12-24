@@ -36,3 +36,7 @@
 75 git checkout -b test
 76 git pull --ff-only
 77 git rebase
+78 git revert 
+79 git reset, 
+80 git restore
+   
