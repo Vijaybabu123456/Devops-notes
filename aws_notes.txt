@@ -1,0 +1,90 @@
+Cloud computing : Provisioning computing services (cpu, memory, storage, network) over the internet
+with the elastic in nature, with self-service , shared responsibility and pay as you go features.
+EC2 : Elastic compute Cloud- 
+S3 : simple storage service
+RDS : Relational database service
+Lambda : serverless computing
+VPC : virtual private cloud : its a isolated networking area.
+subnets : 
+
+#!/bin/env bash
+sudo yum update –y
+sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+sudo yum upgrade
+sudo dnf install java-17-amazon-corretto -y
+sudo yum install jenkins -y
+sudo systemctl enable jenkins
+sudo systemctl start jenkins
+sudo systemctl status jenkins
+sudo yum install git -y
+sudo yum install maven -y
+
+which git to find the location of git
+which mvn to find the location of mvn (ls -l /usr/bin/mvn)
+/var/lib/jenkins/.m2/repository/com/test/demo/demoApp/1.0.0/demoApp-1.0.0.jar
+
+demouser1
+
+jenkins_testfile
+/var/lib/jenkins/.m2/repository/com/test/demo/demoApp/1.0.0/demoApp-1.0.0.jar
+
+to login ec2 : ssh -i "ec2_key.pem" ec2-user@ec2-43-204-103-36.ap-south-1.compute.amazonaws.com 
+to access the intial password for jenkins: sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+
+/var/lib/jenkins/workspace/java-maven-demoapp
+Https default port is 443, http default port is 80
+jenkins default port is 8080
+SSH default port is 22 (entry point)
+172.31.0.0/16 cider block
+52.66.206.197
+XX.XX.XXX.XXX
+0.0.0.0
+255.255.255.255
+2*2*2*2*2*2*2*2* INTERNET PROTOCOL (IPV4 VERSION 4)
+IPv6 
+
+devops is a part of software development life cycles (SDLC) , it is combination of developement, operations
+and some part of testing and as well as monitoring.
+
+SDLC is typically consist of multiple phaces like 
+
+- requirements gatherings
+    Conflience it is used to document the requirements, status of the project.
+
+- designing (Design templates are used to design)
+
+- developement- software languages used like Java,python,.net, c, c++ etc 
+    tools used git, maven, jenkins
+
+- testing- types of testing are unit testing, integration testing (end to end testing)
+
+- operations
+
+    Environment set up- can be done in data center or in cloud, 
+        some of the croud service providers are AWS, GCP (google cloud platform), Azure
+
+    deployment - Jenkins tool is used, shell scripting, ansible, Docker, kubernetes,
+
+- monitoring
+
+    Application monitoring - monitoring application errors, logs and performance metrix 
+     (splunk is used for monitoring application logs)
+
+    System monitoring- monitoring cpu, memory, disk usage and system related issues 
+      AppDynamics, Grafana, Prometheus are used for system monitoring
+
+- feedback 
+
+AWS
+    AWS is a cloud 
+
+VS code live server   
+
+5 10 20 1 3 
+
+5th minute
+10th Hour
+20th calendar day of the month
+1 January
+3rd day of the week (Wednesday)
